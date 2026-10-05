@@ -13,7 +13,7 @@ class Schule
     // non static Methode
     public int AnzahlPersonen()
     {
-        return anzahlSchueler + anzahlLehrer;
+        return anzahlSchueler + anzahlLehrer
     }
 
     // ToString() Methode
@@ -43,7 +43,7 @@ class Program
         Console.WriteLine($"An der {hlw.name} gibt es {hlw.AnzahlPersonen()} Personen.");
 
         //-------------------
-        int n=42;
+        int n = 42;
         Console.WriteLine(n);
         Console.WriteLine(htl); // automatischer Aufruf von ToString()
         Console.WriteLine(htl.ToString());
