@@ -11,7 +11,7 @@ class Schule
     public int anzahlLehrer;
 
     // non static Methode
-    public int AnzahlPersonen_()
+    public int AnzahlPersonen()
     {
         return anzahlSchueler + anzahlLehrer;
     }
