@@ -2,7 +2,7 @@
 // OOP
 // ------------------------------
 
-namespace OOP;
+namespace Test2;
 
 class Schule
 {
